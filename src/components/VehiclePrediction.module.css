@@ -11,26 +11,26 @@
   height: 65vh;
   width: 80vw;
   border: 2px solid black;
-  margin-bottom: 5vh;
+  margin-bottom: 2vh;
 }
 
 .imageContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 50vh;
   width: 30vw;
 
 }
 
 .uploadedImage {
-  height: 60vh;
-  width: 35vw;
+  height: 40vh;
+  width: 40vw;
 }
 
 .resultWindow {
   position: relative;
-  top: 15vh;
+  top: 10vh;
   width: 30vw;
   
 }
@@ -42,9 +42,10 @@
   font-size: 30px;
 }
 
-.resultWindow > h1{
+.resultWindow > h1 {
   position: relative;
-  bottom: 18vh;
+  bottom: 20vh;
+  left: 2vw;
   font-size: 30px;
   list-style: none;
 }

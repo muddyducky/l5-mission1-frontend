@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import styles from './App.module.css'
 import VehiclePrediction from './components/VehiclePrediction'
+import logo from '../public/images/turnersLogo.png'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
  
   return (
     <div className={styles.appContainer}>
+      <img src={logo} alt="turners-logo" className={styles.logo} />
       <h1>Turners Insurance Vehicle Prediction</h1>
       <VehiclePrediction
         image={image}
