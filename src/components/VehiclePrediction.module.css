@@ -1,0 +1,77 @@
+.predictionContainer {
+  justify-items: center;
+  
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  height: 65vh;
+  width: 80vw;
+  border: 2px solid black;
+  margin-bottom: 5vh;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 30vw;
+
+}
+
+.uploadedImage {
+  height: 60vh;
+  width: 35vw;
+}
+
+.resultWindow {
+  position: relative;
+  top: 15vh;
+  width: 30vw;
+  
+}
+
+.resultWindow > h3 {
+  position: relative;
+  left: 12vw;
+  bottom: 20vh;
+  font-size: 30px;
+}
+
+.resultWindow > h1{
+  position: relative;
+  bottom: 18vh;
+  font-size: 30px;
+  list-style: none;
+}
+
+.placeholderText {
+  font-size: 40px;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+}
+
+.hideInputButton {
+  display: none;
+}
+
+.customFileButton {
+  padding: 12px 20px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.fileName {
+  margin: 0px 10px;
+  font-size: 16px;
+  color: black;
+}
+
